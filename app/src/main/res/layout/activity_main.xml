@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_blue"
+    tools:context="dev.uublabs.weekend2.MainActivity">
+
+    <Button
+        android:id="@+id/btnPdfViewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToPdf"
+        android:text="@string/pdf_viewer" />
+
+    <Button
+        android:id="@+id/btnFragDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="displayDialog"
+        android:text="@string/fragmentdialog" />
+
+    <Button
+        android:id="@+id/btnAlertDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="displayAlert"
+        android:text="@string/alert_default" />
+
+    <Button
+        android:id="@+id/btnAlertCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="displayAlert"
+        android:text="@string/alert_custom" />
+
+    <Button
+        android:id="@+id/btnAlertOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="displayAlert"
+        android:text="@string/alert_options" />
+
+    <Button
+        android:id="@+id/btnNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendNotification"
+        android:text="@string/send_notification" />
+
+    <Button
+        android:id="@+id/btnSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendSMS"
+        android:text="@string/send_text" />
+
+    <Button
+        android:id="@+id/btnStopWatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToStopWatch"
+        android:text="@string/stop_watch" />
+
+</LinearLayout>

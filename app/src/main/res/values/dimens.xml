@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="std_margin">10dp</dimen>
+    <dimen name="std_header">35sp</dimen>
+    <dimen name="std_title">25sp</dimen>
+    <dimen name="std_stopwatch_size">65sp</dimen>
+</resources>

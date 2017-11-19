@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dev.uublabs.weekend2.SMSActivity">
+
+    <TextView
+        android:text="Easy SMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/std_margin"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/std_header" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:text="Enter Phone Number:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/std_margin"
+        android:textSize="@dimen/std_title" />
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/std_margin"
+        android:hint="@string/etPhoneNumber" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/std_margin"
+        android:text="Enter Message:"
+        android:textSize="@dimen/std_title" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/std_margin"
+        android:hint="Message" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:onClick="sendSMS"
+        android:text="Send" />
+
+</LinearLayout>

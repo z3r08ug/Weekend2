@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="players">
+        <item>Kobe Bryant</item>
+        <item>Dwyane Wade</item>
+        <item>Tim Duncan</item>
+        <item>Lebron James</item>
+        <item>Steve Nash</item>
+    </array>
+</resources>
